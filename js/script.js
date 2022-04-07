@@ -5,7 +5,7 @@
 /* This is a multi-line comment */
 
 
-var myName = {
+const myName = {
     firstname: "Roque" , lastname:"Martinez", favoritefood: "Tamales"
 }
 
