@@ -1,2 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 
+}
+
+.container, 
+.card {
+    background-color: #353535;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    
+    
+}
+
+.card {
+    background-color: transparent;
+    height: 300px;
+    border-radius: 5% 35%;
+    box-shadow: 
+    0 0 0 10px #cff5f3,
+    0 0 0 20px #49bec7, 
+    0 0 0 30px #2ba1cf,
+    0 0 0 40px #0052b1;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.title {
+    font-size: 2.5rem;
+    -webkit-text-stroke: .05rem #fff;
+    color: transparent;
+    margin-inline: 2rem;
+}
+
+.name {
+    margin-inline: auto;
+    color: #cff5f3;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
