@@ -1,8 +1,12 @@
-// This is a single line comment //
+// This is a single line comment
 
 
 
-/* This is a multi-line comment */
+/* This is a multi-line comment 
+
+roque
+
+*/
 
 
 const myName = {
@@ -10,3 +14,7 @@ const myName = {
 }
 
 console.table(myName);
+
+// console.log("First Name: Roque")
+
+
