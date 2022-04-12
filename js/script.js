@@ -19,6 +19,9 @@ console.table(myName);
 // Length
 let string = 'Supercalifragilisticexpialidocious';
 console.log(string.length);
+//retrieve a specific string character
+console.log(string[3]);
+
 
 //To determine the type
 console.log(typeof string);
@@ -69,7 +72,7 @@ let noun6 = 'tree';
 // Assign a number
 let num = 250;
 // Assign a plural noun
-let pnoun1 = 'they';
+let pnoun1 = 'mountains';
 
 // Open your console to see the results!
 // SPOILER ALERT: KEEP SCROLLING TO VIEW THE REST OF THE CODE
